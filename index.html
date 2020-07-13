@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>webdesign challenge</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Lattitude vs X</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="data.html">Spreadsheet</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Graphs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="temperature.html">Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">      </a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+      <br>
+    <div class="row"> 
+        <div class="col-md-7">
+            <div class="container">
+            <h2> Latitude vs. X</h2>
+            <p> The intention of this project was to take a closer look at how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data fro mthe OpenWeatherMap API to assemble a dataset on over 500 cities
+            </p>
+            <p> After assembling the dataset, we used MatPotlib to plot various aspects of the weather vs the latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site proves the source data and visualizations created as part of the analysis, as well as explinations and descriptions of any trends and correlations witnessed.
+            </p>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class= "container">
+            <h2>Graphs</h2>
+            <p> 
+                <a target="_blank" href="fig1.png">
+                    <img src="fig1.png" alt= "fig1" width="45%">
+                </a>
+                <a target="_blank" href="fig2.png">
+                    <img src="fig2.png" alt= "fig2" width="45%">
+                </a>
+            </p>
+            <p>
+                <a target="_blank" href="fig3.png">
+                <img src="fig3.png" alt= "fig3" width="45%">
+                </a>
+                <a target="_blank" href="fig4.png">
+                    <img src="fig4.png" alt= "fig4" width="45%">
+                    </a>
+            </p>
+        </div>
+        </div>
+    </div>
+</nav>
+    
+</body>
+</html>
